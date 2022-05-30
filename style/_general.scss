@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 60px 0;
+
+    li{
+        display: inline-block;
+
+        a{
+            text:{
+                decoration: none;
+                transform: uppercase;
+            }
+            font-family: Arial, Helvetica, sans-serif;
+            color: lightgreen;
+            padding: 20px;
+            background-color: blue;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgreen;
+  padding: 20px;
+  background-color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: red;
+}
+
+h1 {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
+p {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.novedades h2 {
+  background-color: white;
+}
+
+.novedades p {
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fotos h2 {
+  background-color: white;
+}
+
+.fotos p {
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cuadro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 2rem 2rem 3rem;
+}
+/*# sourceMappingURL=style.css.map */
