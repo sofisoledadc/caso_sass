@@ -1,0 +1,60 @@
+$color: white;
+@mixin FuentesMix {
+    background-color: blue;
+padding: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    color: $color;
+    @include FuentesMix();
+}
+
+
+
+p{
+    color: aliceblue;
+    
+    font:{
+        family: Arial, Helvetica, sans-serif;
+        size: larger;
+}
+}
+
+.novedades{
+    h2{
+        background-color: $color;
+    }
+    p{
+        font-size: smaller;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.fotos{
+    h2{background-color: $color;
+    }
+
+    p{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+}
+
+.cuadro{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 3rem 2rem 2rem 3rem;
+}
